@@ -56,7 +56,6 @@ func main() {
 		select {
 		case v := <-ch:
 			fmt.Printf("main-loop receive:%s\n", v)
-			time.Sleep(1 * time.Second)
 		case <-timer.C:
 			fmt.Println("exit")
 			os.Exit(0)
