@@ -1,4 +1,4 @@
-package goroutine
+package main
 
 /*
 #include <unistd.h>
